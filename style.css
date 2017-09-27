@@ -1,9 +1,11 @@
+/*border radius*/
 .border-radius{
   border: blue dashed 12px;
   width: 50px;
   height:50px;
   border-radius: 100%;
 }
+/* border img */
 .border-img{
   height: 240px;
   width: 240px;
@@ -12,9 +14,23 @@
   padding: 300px;
   left: 25px;
 }
+/* wordwrap 8 */
 .wrap{
   width: 90px;
   overflow-wrap: break-word;
   background: gray;
   color: blue;
+}
+/* gradient */
+.gradient{
+  width: 200px;
+  height:200px;
+  background-color: red;
+  background: repeating-radial-gradient(rgba(255, 255, 255, 0),red 30%);
+  background: -webkit-repeating-radial-gradient(rgba(255, 255, 255, 0),red 30%);
+  background: -moz-repeating-radial-gradient(rgba(255, 255, 255, 0),red 30%);
+  background: -o-repeating-radial-gradient(rgba(255, 255, 255, 0),red 30%);
+  border-width: 20px;
+  border-style: solid;
+  border-image: linear-gradient(grey,black,red);
 }
