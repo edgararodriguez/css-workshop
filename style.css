@@ -34,3 +34,14 @@
   border-style: solid;
   border-image: linear-gradient(grey,black,red);
 }
+/* transition */
+.transition{
+  width: 200px;
+  height:200px;
+  background: repeating-radial-gradient(rgba(255, 255, 255, 0),red 30%);
+  transition: height 2s, width 5s, transform 2s;
+}
+.transition:hover{
+  height: 100px;
+  width: 100px;
+}
