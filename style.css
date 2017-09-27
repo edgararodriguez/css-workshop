@@ -45,3 +45,19 @@
   height: 100px;
   width: 100px;
 }
+/* O */
+.img-o{
+  height: 200px;
+  width: 200px;
+  opacity: 1;
+}
+.img-o-half{
+  height: 200px;
+  widows: 200px;
+  opacity: .5;
+}
+.img-o-quart{
+  height: 200px;
+  width: 200px;
+  opacity: .25;
+}
