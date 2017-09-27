@@ -12,3 +12,9 @@
   padding: 300px;
   left: 25px;
 }
+.wrap{
+  width: 90px;
+  overflow-wrap: break-word;
+  background: gray;
+  color: blue;
+}
